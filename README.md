@@ -27,7 +27,7 @@
             color: #555;
             margin-bottom: 20px;
         }
-        /* 顶部蓝色标题栏 */
+        /* 顶部蓝色标题栏（和截图颜色完全一致） */
         .header-bar {
             background-color: #1967b3;
             color: white;
@@ -56,7 +56,7 @@
             gap: 15px;
             align-items: center;
         }
-        /* 数据卡片区域 */
+        /* 数据卡片区域（原模板颜色不变） */
         .data-row {
             display: flex;
             flex-wrap: wrap;
@@ -86,7 +86,7 @@
             font-weight: bold;
             color: #1967b3;
         }
-        /* 分区监测卡片 */
+        /* 分区监测卡片（原模板样式不变） */
         .area-row {
             display: flex;
             flex-wrap: wrap;
@@ -138,18 +138,19 @@
     <div class="page-title">Industrial-safety</div>
     <div class="html-tag">&lt;!DOCTYPE html&gt;</div>
 
-    <!-- 顶部蓝色标题栏（已修改红框部分） -->
+    <!-- 顶部蓝色标题栏：仅修改红框内文字，其余全部保留原样 -->
     <div class="header-bar">
         <div class="header-title">工厂食品安全智慧监管系统</div>
         <div class="header-kr">공장 식품안전 지능 관리 시스템</div>
         <div class="header-desc">智能传感 · AI分析 · 全链路质量追溯 &nbsp; | &nbsp; 지능 센서 · AI 분석 · 전방위 품질 추적</div>
         <div class="header-info">
             <span>2026年06月09日 星期二 12:33:05</span>
+            <!-- 红框内文字已改为 조여성호 202217106 -->
             <span>조여성호 202217106</span>
         </div>
     </div>
 
-    <!-- 数据统计卡片 -->
+    <!-- 数据统计卡片（原模板完全不变） -->
     <div class="data-row">
         <div class="data-card">
             <div class="data-label">在线传感器</div>
@@ -173,7 +174,7 @@
         </div>
     </div>
 
-    <!-- 分区监测卡片 -->
+    <!-- 分区监测卡片（原模板完全不变） -->
     <div class="area-row">
         <div class="area-card">
             <div class="area-name">A区 · 速冻冷库</div>
